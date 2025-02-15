@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CMenu.cpp">
+      <Filter>CMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>CUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMenu.h">
+      <Filter>CMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>CUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMenu">
+      <UniqueIdentifier>{9f98468c-b77d-4d47-852b-7da37ced8707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUnit">
+      <UniqueIdentifier>{5318077c-1b7f-4f56-96df-65183fba9568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{5004264d-ec34-4b28-b997-974bf67196ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{2c45be19-687a-4987-b81e-be46fb50570a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{c79f8c3f-8913-41a2-a03e-941c0c40e5da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
