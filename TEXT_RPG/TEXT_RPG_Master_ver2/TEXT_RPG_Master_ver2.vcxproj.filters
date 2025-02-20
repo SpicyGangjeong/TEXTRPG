@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CMonster">
+      <UniqueIdentifier>{2059bc9d-f7ac-47a0-8a44-670d7ecce437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPlayer">
+      <UniqueIdentifier>{5b2d36ee-14d4-4234-b532-4e28d71d97b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMainGame">
+      <UniqueIdentifier>{611fdd3e-36bd-4dc0-b244-015412ceb285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CField">
+      <UniqueIdentifier>{e0f74b13-b2fe-4058-8d77-3d418df50bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTile">
+      <UniqueIdentifier>{8ca455be-4407-4f7c-b2c4-b9fc1276c111}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CField.h">
+      <Filter>CField</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>CMainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>CTile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CField.cpp">
+      <Filter>CField</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>CMainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>CTile</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
