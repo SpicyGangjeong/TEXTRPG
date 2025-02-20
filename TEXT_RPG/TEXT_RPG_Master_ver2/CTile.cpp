@@ -52,7 +52,7 @@ void CTile::Update()
 void CTile::Release()
 {
 	m_pPlayer = nullptr;
-	m_pMonster = nullptr;
+	SAFE_DELETE(m_pMonster);
 }
 
 int CTile::Render()
