@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vs/TEXTRPG/v17/DocumentLayout.json
+/TEXT_RPG/.vs/TEXT_RPG/v17/.suo
+/.vs/TEXTRPG/v17/.wsuo
+/TEXT_RPG/.vs/TEXT_RPG/v17/DocumentLayout.backup.json
+/TEXT_RPG/.vs/TEXT_RPG/v17/DocumentLayout.json
+/TEXT_RPG/TEXT_RPG.sln
+/TEXT_RPG/.vs/TEXT_RPG/v17/Preview/Browse.VC.db
