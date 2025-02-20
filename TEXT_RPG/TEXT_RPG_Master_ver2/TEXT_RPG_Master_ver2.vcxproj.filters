@@ -22,11 +22,11 @@
     <Filter Include="CMainGame">
       <UniqueIdentifier>{611fdd3e-36bd-4dc0-b244-015412ceb285}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CVillage">
-      <UniqueIdentifier>{cd9089f5-5d91-4a7c-b98c-ad753c9d33ee}</UniqueIdentifier>
-    </Filter>
     <Filter Include="CField">
       <UniqueIdentifier>{e0f74b13-b2fe-4058-8d77-3d418df50bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTile">
+      <UniqueIdentifier>{8ca455be-4407-4f7c-b2c4-b9fc1276c111}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -45,11 +45,11 @@
     <ClInclude Include="CField.h">
       <Filter>CField</Filter>
     </ClInclude>
-    <ClInclude Include="CVillage.h">
-      <Filter>CVillage</Filter>
-    </ClInclude>
     <ClInclude Include="CMainGame.h">
       <Filter>CMainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>CTile</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -68,11 +68,11 @@
     <ClCompile Include="CField.cpp">
       <Filter>CField</Filter>
     </ClCompile>
-    <ClCompile Include="CVillage.cpp">
-      <Filter>CVillage</Filter>
-    </ClCompile>
     <ClCompile Include="CMainGame.cpp">
       <Filter>CMainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>CTile</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

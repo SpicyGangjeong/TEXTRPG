@@ -1,5 +1,6 @@
 #pragma once
 #include "Define.h"
+#include "CMonster.h"
 
 class CPlayer
 {
@@ -7,7 +8,6 @@ class CPlayer
 		WARRIOR = 1,
 		MAGE,
 		THIEF,
-		LOAD,
 	};
 private:
 	static CPlayer* Instance;
@@ -18,12 +18,14 @@ private:
 	void Update();
 	void Release();
 	void Load();
-	INFO* GetINFO();
 public:
 	~CPlayer();
 	static CPlayer* GetPlayer();
-public:
-
+	void Rebirth();
+	void Render();
+	INFO* GetInfo();
 	CPlayer* SelectJob();
+	int Battle(CMonster* _target);
+	void GetExp(int _iValue);
 };
 

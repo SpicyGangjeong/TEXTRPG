@@ -9,6 +9,10 @@
 constexpr int MAXROW	= 10;
 constexpr int MAXCOL	= 10;
 
+constexpr char m_cTiles[6] = { '.', '#', 'P', '&', '!', 'T' };
+constexpr int dRow[4] = { 1, 0, 0, -1 };
+constexpr int dCol[4] = { 0, -1, 1, 0 };
+
 typedef struct tagInfo {
 	char szName[64];
 	int iMaxHp;
@@ -18,3 +22,12 @@ typedef struct tagInfo {
 	int iExp;
 }INFO;
 
+
+enum TYPE_TILE {
+	EMPTY = 0,
+	WALL,
+	PLAYER,
+	MONSTER,
+	BOX,
+	VILLAGE,
+};
