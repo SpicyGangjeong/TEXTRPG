@@ -37,7 +37,6 @@ public:
 	void Initialize(CPlayer* _pPlayer);
 	int Update();
 	void Release();
-	void Render();
+	void Render() const;
 	int Move(int _dRow, int _dCol);
 };
-

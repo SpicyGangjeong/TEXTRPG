@@ -15,7 +15,7 @@ CTile::~CTile()
 	Release();
 }
 
-void CTile::Initialize(int _Row, int _Col, TYPE_TILE _status)
+void CTile::Initialize(int& _Row, int& _Col, TYPE_TILE _status)
 {
 	m_Row = _Row;
 	m_Col = _Col;
@@ -55,7 +55,7 @@ void CTile::Release()
 	SAFE_DELETE(m_pMonster);
 }
 
-int CTile::Render()
+int CTile::Render() const
 {
 	if (m_pPlayer) {
 		return PLAYER;
@@ -64,11 +64,6 @@ int CTile::Render()
 		return MONSTER;
 	}
 	return m_status;
-}
-
-void CTile::ChangeStatus()
-{
-
 }
 
 void CTile::setPlayer(CPlayer* _target)
@@ -81,12 +76,12 @@ void CTile::SetStatus(TYPE_TILE _status)
 	m_status = _status;
 }
 
-TYPE_TILE CTile::GetStatus()
+TYPE_TILE CTile::GetStatus() const
 {
 	return m_status;
 }
 
-CMonster* CTile::GetMonster()
+CMonster* CTile::GetMonster() const
 {
 	return m_pMonster;
 }

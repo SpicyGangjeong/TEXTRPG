@@ -2,7 +2,6 @@
 #include "Define.h"
 #include "CPlayer.h"
 #include "CField.h"
-#include "CMonster.h"
 
 class CMainGame
 {

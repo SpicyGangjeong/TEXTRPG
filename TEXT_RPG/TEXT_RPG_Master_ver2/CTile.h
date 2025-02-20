@@ -16,18 +16,17 @@ public:
 	CTile();
 	~CTile();
 
-	void Initialize(int _Row, int _Col, TYPE_TILE _status);
+	void Initialize(int& _Row, int& _Col, TYPE_TILE _status);
 	void Update();
 	void Release();
 
 
 public:
-	int Render();
-	void ChangeStatus();
+	int Render() const;
 	void setPlayer(CPlayer* _target);
 	void SetStatus(TYPE_TILE _status);
-	TYPE_TILE GetStatus();
-	CMonster* GetMonster();
+	TYPE_TILE GetStatus() const;
+	CMonster* GetMonster() const;
 	void SetMonster(CMonster* _Monster);
 };
 

@@ -90,7 +90,7 @@ void CField::Release()
 	SAFE_DELETE_ARRAY(m_tileMap);
 }
 
-void CField::Render()
+void CField::Render() const
 {
 	for (int iRow = 0; iRow < MAXROW; ++iRow) {
 		for (int iCol = 0; iCol < MAXCOL; ++iCol) {
