@@ -1,0 +1,13 @@
+# Visual Studio 관련 파일 무시
+.vs/
+*.suo
+*.user
+*.cache
+*.pdb
+*.log
+
+# 빌드된 실행 파일 및 디렉터리 무시
+x64/
+*.exe
+*.dll
+*.obj
