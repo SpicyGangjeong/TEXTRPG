@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CObj">
+      <UniqueIdentifier>{4d7a47b2-988b-4cce-95ef-8bcba3be779f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CUnit">
+      <UniqueIdentifier>{c10f0782-6cf7-412c-b868-b2242b67abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CUnit\CMonster">
+      <UniqueIdentifier>{207c2369-6872-4917-bd57-1534a263bdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CUnit\CPlayer">
+      <UniqueIdentifier>{9273d0be-864e-4351-acb0-f0abdfa9646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CObj\CMainGame">
+      <UniqueIdentifier>{fa6c8489-d139-45ea-840b-f06831095758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CScene">
+      <UniqueIdentifier>{f57ca65a-c8d1-4746-8b81-44e5d0d86d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CScene\CSceneDungeon">
+      <UniqueIdentifier>{eb6e4f11-be85-45ca-9d3f-01ac7e43c890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CScene\CSceneShop">
+      <UniqueIdentifier>{ff951982-01df-457c-94cf-a6d44b403f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObj\CScene\CSceneVillage">
+      <UniqueIdentifier>{ebabe631-5cf2-41bf-8c79-7a643ddf2a17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>CObj</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>CObj\CUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>CObj\CUnit\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>CObj\CUnit\CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>CObj\CMainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>CObj\CScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneDungeon.cpp">
+      <Filter>CObj\CScene\CSceneDungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneVillage.cpp">
+      <Filter>CObj\CScene\CSceneVillage</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneShop.cpp">
+      <Filter>CObj\CScene\CSceneShop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>CObj</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>CObj\CUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>CObj\CUnit\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>CObj\CUnit\CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>CObj\CMainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>CObj\CScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneDungeon.h">
+      <Filter>CObj\CScene\CSceneDungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneVillage.h">
+      <Filter>CObj\CScene\CSceneVillage</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneShop.h">
+      <Filter>CObj\CScene\CSceneShop</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
