@@ -1,5 +1,9 @@
-﻿  CField.cpp
+﻿  pch.cpp
+  CField.cpp
   CMainGame.cpp
+  CMonster.cpp
+  CPlayer.cpp
+  CTile.cpp
   main.cpp
   코드를 생성하고 있습니다...
   TEXT_RPG_Master_ver2.vcxproj -> C:\Users\golde\source\repos\TEXTRPG\TEXT_RPG\x64\Debug\TEXT_RPG_Master_ver2.exe
